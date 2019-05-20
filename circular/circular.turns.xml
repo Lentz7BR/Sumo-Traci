@@ -1,0 +1,102 @@
+<turns>
+   <interval begin="0" end="3600">
+      <fromEdge id="51">
+         <toEdge id="52" probability="0.5"/>
+         <toEdge id="14" probability="0.5"/>
+      </fromEdge>
+      
+      <fromEdge id="13">
+         <toEdge id="52" probability="0.5"/>
+         <toEdge id="14" probability="0.5"/>
+      </fromEdge>
+      
+      <fromEdge id="61">
+         <toEdge id="62" probability="0.5"/>
+         <toEdge id="4" probability="0.5"/>
+      </fromEdge>
+      
+      <fromEdge id="3">
+         <toEdge id="62" probability="0.5"/>
+         <toEdge id="4" probability="0.5"/>
+      </fromEdge>
+  
+      <fromEdge id="19">
+         <toEdge id="20" probability="0.5"/>
+         <toEdge id="78" probability="0.5"/>
+      </fromEdge>
+  
+      <fromEdge id="77">
+         <toEdge id="20" probability="0.5"/>
+         <toEdge id="78" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="23">
+         <toEdge id="112" probability="0.5"/>
+         <toEdge id="24" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="111">
+         <toEdge id="112" probability="0.5"/>
+         <toEdge id="24" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="65">
+         <toEdge id="26" probability="0.5"/>
+         <toEdge id="66" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="25">
+         <toEdge id="26" probability="0.5"/>
+         <toEdge id="66" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="29">
+         <toEdge id="30" probability="0.5"/>
+         <toEdge id="100" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="99">
+         <toEdge id="30" probability="0.5"/>
+         <toEdge id="100" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="107">
+         <toEdge id="108" probability="0.5"/>
+         <toEdge id="70" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="69">
+         <toEdge id="108" probability="0.5"/>
+         <toEdge id="70" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="117">
+         <toEdge id="118" probability="0.5"/>
+         <toEdge id="92" probability="0.5"/>
+      </fromEdge>
+        
+      <fromEdge id="91">
+         <toEdge id="118" probability="0.5"/>
+         <toEdge id="92" probability="0.5"/>
+      </fromEdge>
+
+   </interval>
+
+   <sink edges="91"/>
+   <sink edges="117"/>
+   <sink edges="69"/>
+   <sink edges="107"/>
+   <sink edges="99"/>
+   <sink edges="29"/>
+   <sink edges="25"/>
+   <sink edges="65"/>
+   <sink edges="111"/>
+   <sink edges="23"/>
+   <sink edges="77"/>
+   <sink edges="19"/>
+   <sink edges="3"/>
+   <sink edges="61"/>
+   <sink edges="13"/>
+   <sink edges="51"/>
+   
+</turns>
